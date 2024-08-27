@@ -1,0 +1,31 @@
+name: ad_hoc_ident_nfc_detect_emv
+description: "Plugin to provide functionalities to read EMV cards as part of the ad_hoc_identity framework."
+version: 0.0.1-preview-1
+homepage: https://github.com/FabianMoeckel/ad_hoc_ident_nfc_detect_emv
+repository: https://github.com/FabianMoeckel/ad_hoc_ident_nfc_detect_emv
+
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  ad_hoc_ident: ^0.0.1-preview-1
+  ad_hoc_ident_nfc: ^0.0.1-preview-1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.github.fabianmoeckel.adhocident.nfc.ad_hoc_ident_nfc_detect_emv
+        pluginClass: AdHocIdentNfcDetectEmvPlugin

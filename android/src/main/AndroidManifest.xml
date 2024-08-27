@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.github.fabianmoeckel.adhocident.nfc.ad_hoc_ident_nfc_detect_emv">
+</manifest>
